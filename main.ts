@@ -5,7 +5,7 @@ makerbit.onIrButton(IrButton.Any, IrButtonAction.Pressed, function () {
     basic.showString("" + (makerbit.irButton()))
 })
 makerbit.connectIrReceiver(DigitalPin.P16, IrProtocol.NEC)
-basic.showIcon(IconNames.Asleep)
+basic.showIcon(IconNames.Chessboard)
 basic.forever(function () {
 	
 })
